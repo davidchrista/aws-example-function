@@ -15,7 +15,7 @@ exports.handler = async (event) => {
   );
   // Create JSON object with parameters for DynamoDB and store in a variable
   let params = {
-    TableName: "HelloWorldDatabase",
+    TableName: "AWSExampleDatabase",
     Item: {
       ID: name,
       LatestGreetingTime: now,
